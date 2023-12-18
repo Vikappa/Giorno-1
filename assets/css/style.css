@@ -46,6 +46,7 @@ header {
     header {
         text-align: left;
         position: relative;
+        height: 10vh;
     }
 
     header div,
@@ -75,6 +76,10 @@ header {
         transform: translateY(-50%);
         position: absolute;
         right: 21px;
+    }
+
+    header nav li {
+        display: inline;
     }
 }
 
