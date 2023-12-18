@@ -46,7 +46,7 @@ header {
     header {
         text-align: left;
         position: relative;
-        height: 10vh;
+        height: 12vh;
     }
 
     header div,
@@ -245,7 +245,7 @@ iframe {
     border-radius: 20px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 767px) {
 
     iframe,
     section {
@@ -257,9 +257,8 @@ iframe {
     }
 
     section {
-        position: relative;
-        bottom: 10%;
-        right: -2%;
+        display: inline-block;
+        float: right;
     }
 }
 
