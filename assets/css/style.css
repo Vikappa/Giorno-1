@@ -258,7 +258,7 @@ iframe {
 
     section {
         position: relative;
-        top: 0;
+        bottom: 10%;
         right: -2%;
     }
 }
