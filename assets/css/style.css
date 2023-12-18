@@ -44,38 +44,37 @@ header {
 
 @media (min-width: 769px) {
     header {
-        display: table;
-        width: 100%;
-        table-layout: fixed;
-    }
-
-    header div {
-        display: table-cell;
-    }
-
-    header div img,
-    header div p {
-        display: table-cell;
+        text-align: left;
+        position: relative;
     }
 
     header div,
     header nav {
-        display: table-cell;
-        vertical-align: middle;
+        display: inline-block;
+        margin-right: -4px;
+        width: 50%;
+        font-size: 1.7rem;
     }
 
     header div img {
-        position: relative;
-        left: 0%
+        margin: 0;
     }
 
-    header div,
+    header div p {
+        /* display: inline-block; */
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 260px;
+        margin: 0;
+    }
+
     header nav {
-        display: table-cell;
-    }
-
-    header nav ul li {
-        display: inline;
+        text-align: right;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        right: 21px;
     }
 }
 
