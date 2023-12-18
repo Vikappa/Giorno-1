@@ -330,6 +330,12 @@ aside h2 {
 }
 
 @media (min-width: 575px) {
+
+    aside {
+        display: inline-block;
+        width: 100%;
+    }
+
     aside h2 {
         font-size: 4rem;
         font-weight: bold;
@@ -339,6 +345,14 @@ aside h2 {
 
     aside p {
         font-size: 2rem;
+    }
+
+    aside div {
+        display: inline-block;
+        vertical-align: top;
+        height: 15vh;
+        width: 30%;
+        margin: 1%;
     }
 }
 
